@@ -6,6 +6,11 @@
 body{
     width:100%;
 }
+
+.sticky{
+    background-color: blue;
+    position:fixed;
+}
 header{
     width:100%;
     min-height: 500px;
@@ -21,7 +26,7 @@ header{
     height: 1000px;
 }
 .navigation{
-    position:fixed;
+    position:absolute;
     /* border:2px solid black; */
     width:100%;
 }
@@ -43,7 +48,7 @@ header{
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 .navigation .nav-bar ul li{
     margin-top: 70px;

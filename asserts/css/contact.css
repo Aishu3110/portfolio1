@@ -9,11 +9,13 @@ body{
 .header{
     width:100%;
     height:200px;
+    display: flex;
 }
 .navigation{
-    position:fixed;
+    position:absolute;
     /* border:2px solid black; */
     width:100%;
+
 }
 .navigation .name{
     float:left;
@@ -33,7 +35,7 @@ body{
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 .navigation .nav-bar ul li{
     margin-top: 70px;
@@ -74,9 +76,9 @@ body{
     background: rgb(80,108,227);
     background: linear-gradient(90deg, rgba(80,108,227,1) 13%, rgba(123,13,212,1) 55%, rgba(252,69,180,1) 94%);
     width:100%;
-    height: 40vh;
+    height: 20vh;
     position: absolute;
-    top:150px;
+    top:130px;
 }
 
 .contact .pagehead{
@@ -87,26 +89,15 @@ body{
 .contact .pagehead h1{
     font-size: 40px;
     color:white;
-    margin-top: 80px;
+    margin-top: 70px;
+    justify-content: center;
+    display:flex
 }
 
-.contact .home-contact {
-    margin-top: 30px;
-}
-
-.contact .home-contact a {
-    color:#ffffff;
-    font-size: 25px;
-    margin-top: 50px;
-}
-
-.contact .home-contact a:hover {
-    color: rgb(44, 17, 221);
-}
 .container{
     position: absolute;
     width:100%;
-    top:500px;
+    top:350px;
     font-size:30px;
 }
 
@@ -118,7 +109,7 @@ body{
 .icons{
     position: absolute;
     width:100%;
-    top:600px;
+    top:400px;
 
 }
 #left {
@@ -213,12 +204,14 @@ body{
 }
 
 .container1{
-    margin-top: 800px;
+  position: absolute;
+    top: 650px;
     max-width: 800px;
     background: #fff;
     width: 800px;
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    left:400px;
   }
   .container1 .text{
     text-align: center;
@@ -334,12 +327,14 @@ body{
       width: 40%!important;
     }
   }
-.footer{
-    width:100%;
+
+  .footer{
+    width:1536px;
     height:40vh;
-    background: rgb(80,108,227);
+    background: rgb(80,108,227)100%;
     background: linear-gradient(90deg, rgba(80,108,227,1) 13%, rgba(123,13,212,1) 55%, rgba(252,69,180,1) 94%);
-    margin-top:100px;
+    position: absolute;
+    top: 550px;
 }
 
 .logo img{
@@ -351,14 +346,13 @@ body{
 .navbar ul{
     float: center;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: left;
-    margin-left: 500px;
+
 }
 .navbar ul li{
     margin-top: 20px;
     list-style: none;
-    margin-left: 50px;
     font-size: 19px;
 }
 .navbar ul li a{
@@ -376,7 +370,9 @@ body{
     background: transparent;
     cursor: pointer;
     padding-top:30px;
-
+    position:absolute;
+    top:700px;
+    justify-content: center;
 }
 
 .social-icon i:hover {
@@ -389,6 +385,10 @@ body{
     margin-top:15px;
     border-top: 1px solid rgb(39, 2, 186);
     padding: 5px;
+    position:absolute;
+    top:800px;
+    justify-content: center;
 }
-
-
+.footer-bot{
+margin: 25px 50px 25px 50px;
+}
