@@ -211,7 +211,6 @@ body{
     width: 800px;
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    left:400px;
   }
   .container1 .text{
     text-align: center;
@@ -327,68 +326,3 @@ body{
       width: 40%!important;
     }
   }
-
-  .footer{
-    width:1536px;
-    height:40vh;
-    background: rgb(80,108,227)100%;
-    background: linear-gradient(90deg, rgba(80,108,227,1) 13%, rgba(123,13,212,1) 55%, rgba(252,69,180,1) 94%);
-    position: absolute;
-    top: 550px;
-}
-
-.logo img{
-    width:100px;
-    height: 100px;
-    margin-top:15px;
-}
-
-.navbar ul{
-    float: center;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-
-}
-.navbar ul li{
-    margin-top: 20px;
-    list-style: none;
-    font-size: 19px;
-}
-.navbar ul li a{
-    color: black;
-    font-family: cursive;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-}
-.navbar ul li a:hover{
-    color: rgb(39, 2, 186);
-}
-
-.social-icon {
-    font-size: 40px;
-    background: transparent;
-    cursor: pointer;
-    padding-top:30px;
-    position:absolute;
-    top:700px;
-    justify-content: center;
-}
-
-.social-icon i:hover {
-    color: white;
-    background: linear-gradient(90deg, rgba(80,108,227,1) 13%, rgba(123,13,212,1) 55%, rgba(252,69,180,1) 94%);
-}
-
-.footer-bottom{
-    font-size: 25px;
-    margin-top:15px;
-    border-top: 1px solid rgb(39, 2, 186);
-    padding: 5px;
-    position:absolute;
-    top:800px;
-    justify-content: center;
-}
-.footer-bot{
-margin: 25px 50px 25px 50px;
-}
